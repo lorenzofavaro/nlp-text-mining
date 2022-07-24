@@ -1,0 +1,301 @@
+Computer science is the study of computation, automation, and information. 
+Computer science spans theoretical disciplines (such as algorithms, theory of computation, information theory and automation) to practical disciplines (including the design and implementation of hardware and software). 
+Computer science is generally considered an area of academic research and distinct from computer programming.
+Algorithms and data structures are central to computer science. 
+The theory of computation concerns abstract models of computation and general classes of problems that can be solved using them. 
+The fields of cryptography and computer security involve studying the means for secure communication and for preventing security vulnerabilities. 
+Computer graphics and computational geometry address the generation of images. 
+Programming language theory considers different ways to describe computational processes, and database theory concerns the management of repositories of data. 
+Human–computer interaction investigates the interfaces through which humans and computers interact, and software engineering focuses on the design and principles behind developing software. 
+Areas such as operating systems, networks and embedded systems investigate the principles and design behind complex systems. 
+Computer architecture describes the construction of computer components and computer-operated equipment. 
+Artificial intelligence and machine learning aim to synthesize goal-orientated processes such as problem-solving, decision-making, environmental adaptation, planning and learning found in humans and animals. 
+Within artificial intelligence, computer vision aims to understand and process image and video data, while natural language processing aims to understand and process textual and linguistic data.
+The fundamental concern of computer science is determining what can and cannot be automated. 
+The Turing Award is generally recognized as the highest distinction in computer science.
+A number of computer scientists have argued for the distinction of three separate paradigms in computer science. 
+Peter Wegner argued that those paradigms are science, technology, and mathematics. 
+Peter Denning's working group argued that they are theory, abstraction (modeling), and design. 
+Amnon H. Eden described them as the "rationalist paradigm" (which treats computer science as a branch of mathematics, which is prevalent in theoretical computer science, and mainly employs deductive reasoning), the "technocratic paradigm" (which might be found in engineering approaches, most prominently in software engineering), and the "scientific paradigm" (which approaches computer-related artifacts from the empirical perspective of natural sciences, identifiable in some branches of artificial intelligence). 
+Computer science focuses on methods involved in design, specification, programming, verification, implementation and testing of human-made computing systems.
+As a discipline, computer science spans a range of topics from theoretical studies of algorithms and the limits of computation to the practical issues of implementing computing systems in hardware and software. 
+CSAB, formerly called Computing Sciences Accreditation Board—which is made up of representatives of the Association for Computing Machinery (ACM), and the IEEE Computer Society (IEEE CS)—identifies four areas that it considers crucial to the discipline of computer science: theory of computation, algorithms and data structures, programming methodology and languages, and computer elements and architecture. 
+In addition to these four areas, CSAB also identifies fields such as software engineering, artificial intelligence, computer networking and communication, database systems, parallel computation, distributed computation, human–computer interaction, computer graphics, operating systems, and numerical and symbolic computation as being important areas of computer science.
+Theoretical Computer Science is mathematical and abstract in spirit, but it derives its motivation from the practical and everyday computation. 
+Its aim is to understand the nature of computation and, as a consequence of this understanding, provide more efficient methodologies.
+According to Peter Denning, the fundamental question underlying computer science is, "What can be automated?".
+Theory of computation is focused on answering fundamental questions about what can be computed and what amount of resources are required to perform those computations. 
+In an effort to answer the first question, computability theory examines which computational problems are solvable on various theoretical models of computation. 
+The second question is addressed by computational complexity theory, which studies the time and space costs associated with different approaches to solving a multitude of computational problems.
+Information theory, closely related to probability and statistics, is related to the quantification of information. 
+This was developed by Claude Shannon to find fundamental limits on signal processing operations such as compressing data and on reliably storing and communicating data. 
+Coding theory is the study of the properties of codes (systems for converting information from one form to another) and their fitness for a specific application. 
+Codes are used for data compression, cryptography, error detection and correction, and more recently also for network coding. 
+Codes are studied for the purpose of designing efficient and reliable data transmission methods.
+Data structures and algorithms are the studies of commonly used computational methods and their computational efficiency.
+Programming language theory is a branch of computer science that deals with the design, implementation, analysis, characterization, and classification of programming languages and their individual features. 
+It falls within the discipline of computer science, both depending on and affecting mathematics, software engineering, and linguistics. 
+It is an active research area, with numerous dedicated academic journals.
+Formal methods are a particular kind of mathematically based technique for the specification, development and verification of software and hardware systems. 
+The use of formal methods for software and hardware design is motivated by the expectation that, as in other engineering disciplines, performing appropriate mathematical analysis can contribute to the reliability and robustness of a design. 
+They form an important theoretical underpinning for software engineering, especially where safety or security is involved. 
+Formal methods are a useful adjunct to software testing since they help avoid errors and can also give a framework for testing. 
+For industrial use, tool support is required. 
+However, the high cost of using formal methods means that they are usually only used in the development of high-integrity and life-critical systems, where safety or security is of utmost importance. 
+Formal methods are best described as the application of a fairly broad variety of theoretical computer science fundamentals, in particular logic calculi, formal languages, automata theory, and program semantics, but also type systems and algebraic data types to problems in software and hardware specification and verification.
+Artificial intelligence (AI) aims to or is required to synthesize goal-orientated processes such as problem-solving, decision-making, environmental adaptation, learning, and communication found in humans and animals.
+From its origins in cybernetics and in the Dartmouth Conference (1956), artificial intelligence research has been necessarily cross-disciplinary, drawing on areas of expertise such as applied mathematics, symbolic logic, semiotics, electrical engineering, philosophy of mind, neurophysiology, and social intelligence.
+AI is associated in the popular mind with robotic development, but the main field of practical application has been as an embedded component in areas of software development, which require computational understanding.
+The starting point in the late 1940s was Alan Turing's question "Can computers think?", and the question remains effectively unanswered, although the Turing test is still used to assess computer output on the scale of human intelligence.
+But the automation of evaluative and predictive tasks has been increasingly successful as a substitute for human monitoring and intervention in domains of computer application involving complex real-world data.
+Computer architecture, or digital computer organization, is the conceptual design and fundamental operational structure of a computer system.
+It focuses largely on the way by which the central processing unit performs internally and accesses addresses in memory. Computer engineers study computational logic and design of computer hardware, from individual processor components, microcontrollers, personal computers to supercomputers and embedded systems.
+The term “architecture” in computer literature can be traced to the work of Lyle R. Johnson and Frederick P. Brooks, Jr., members of the Machine Organization department in IBM's main research center in 1959.
+Concurrency is a property of systems in which several computations are executing simultaneously, and potentially interacting with each other. 
+A number of mathematical models have been developed for general concurrent computation including Petri nets, process calculi and the Parallel Random Access Machine model. 
+When multiple computers are connected in a network while using concurrency, this is known as a distributed system. Computers within that distributed system have their own private memory, and information can be exchanged to achieve common goals.
+This branch of computer science aims to manage networks between computers worldwide.
+Computer security is a branch of computer technology with the objective of protecting information from unauthorized access, disruption, or modification while maintaining the accessibility and usability of the system for its intended users.
+Historical cryptography is the art of writing and deciphering secret messages. Modern cryptography is the scientific study of problems relating to distributed computations that can be attacked.
+Technologies studied in modern cryptography include symmetric and asymmetric encryption, digital signatures, cryptographic hash functions, key-agreement protocols, blockchain, zero-knowledge proofs, and garbled circuits.
+A database is intended to organize, store, and retrieve large amounts of data easily. Digital databases are managed using database management systems to store, create, maintain, and search data, through database models and query languages. Data mining is a process of discovering patterns in large data sets.
+Computer graphics is the study of digital visual contents and involves the synthesis and manipulation of image data.
+The study is connected to many other fields in computer science, including computer vision, image processing, and computational geometry, and is heavily applied in the fields of special effects and video games.
+Software engineering is the study of designing, implementing, and modifying the software in order to ensure it is of high quality, affordable, maintainable, and fast to build.
+It is a systematic approach to software design, involving the application of engineering practices to software. Software engineering deals with the organizing and analyzing of software—it doesn't just deal with the creation or manufacture of new software, but its internal arrangement and maintenance.
+For example software testing, systems engineering, technical debt and software development processes.
+
+Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal.
+Unqualified, the word football normally means the form of football that is the most popular where the word is used.
+Sports commonly called football include association football (known as soccer in North America and Oceania); gridiron football (specifically American football or Canadian football); Australian rules football; rugby union and rugby league; and Gaelic football.
+These various forms of football share to varying extent common origins and are known as football codes.
+There are a number of references to traditional, ancient, or prehistoric ball games played in many different parts of the world. 
+Contemporary codes of football can be traced back to the codification of these games at English public schools during the 19th century.
+The expansion and cultural influence of the British Empire allowed these rules of football to spread to areas of British influence outside the directly controlled Empire.
+By the end of the 19th century, distinct regional codes were already developing: Gaelic football, for example, deliberately incorporated the rules of local traditional football games in order to maintain their heritage.
+In 1888, The Football League was founded in England, becoming the first of many professional football associations.
+During the 20th century, several of the various kinds of football grew to become some of the most popular team sports in the world.
+The various codes of football share certain common elements and can be grouped into two main classes of football: carrying codes like American football, Canadian football, Australian football, rugby union and rugby league, where the ball is moved about the field while being held in the hands or thrown, and kicking codes such as Association football and Gaelic football, where the ball is moved primarily with the feet, and where handling is strictly limited.
+Common rules among the sports include: Two teams of usually between 11 and 18 players; some variations that have fewer players (five or more per team) are also popular; A clearly defined area in which to play the game; Scoring goals or points by moving the ball to an opposing team's end of the field and either into a goal area, or over a line; Goals or points resulting from players putting the ball between two goalposts; The goal or line being defended by the opposing team; Players using only their body to move the ball.
+In all codes, common skills include passing, tackling, evasion of tackles, catching and kicking.
+In most codes, there are rules restricting the movement of players offside, and players scoring a goal must put the ball either under or over a crossbar between the goalposts.
+There are conflicting explanations of the origin of the word "football".
+It is widely assumed that the word "football" (or the phrase "foot ball") refers to the action of the foot kicking a ball.
+There is an alternative explanation, which is that football originally referred to a variety of games in medieval Europe, which were played on foot.
+There is no conclusive evidence for either explanation.
+The Chinese competitive game cuju resembles modern association football (soccer), descriptions appear in a military manual dated to the second and third centuries BC.
+It existed during the Han dynasty and possibly the Qin dynasty, in the second and third centuries BC.
+The Japanese version of cuju is kemari, and was developed during the Asuka period.
+This is known to have been played within the Japanese imperial court in Kyoto from about 600 AD.
+In kemari several people stand in a circle and kick a ball to each other, trying not to let the ball drop to the ground (much like keepie uppie).
+The Ancient Greeks and Romans are known to have played many ball games, some of which involved the use of the feet.
+The Roman game harpastum is believed to have been adapted from a Greek team game known as "ἐπίσκυρος" (Episkyros) or "φαινίνδα" (phaininda), which is mentioned by a Greek playwright, Antiphanes (388–311 BC) and later referred to by the Christian theologian Clement of Alexandria (c. 150 – c. 215 AD). These games appear to have resembled rugby football.
+The Roman politician Cicero (106–43 BC) describes the case of a man who was killed whilst having a shave when a ball was kicked into a barber's shop.
+Roman ball games already knew the air-filled ball, the follis.
+Episkyros is recognised as an early form of football by FIFA.
+There are a number of references to traditional, ancient, or prehistoric ball games, played by indigenous peoples in many different parts of the world.
+For example, in 1586, men from a ship commanded by an English explorer named John Davis, went ashore to play a form of football with Inuit in Greenland.
+There are later accounts of an Inuit game played on ice, called Aqsaqtuk.
+Each match began with two teams facing each other in parallel lines, before attempting to kick the ball through each other team's line and then at a goal.
+In 1610, William Strachey, a colonist at Jamestown, Virginia recorded a game played by Native Americans, called Pahsaheman.
+Pasuckuakohowog, a game similar to modern-day association football played amongst Amerindians, was also reported as early as the 17th century.
+Games played in Mesoamerica with rubber balls by indigenous peoples are also well-documented as existing since before this time, but these had more similarities to basketball or volleyball, and no links have been found between such games and modern football sports. Northeastern American Indians, especially the Iroquois Confederation, played a game which made use of net racquets to throw and catch a small ball; however, although it is a ball-goal foot game, lacrosse (as its modern descendant is called) is likewise not usually classed as a form of "football".
+In the 16th century, the city of Florence celebrated the period between Epiphany and Lent by playing a game which today is known as "calcio storico" ("historic kickball") in the Piazza Santa Croce.
+The young aristocrats of the city would dress up in fine silk costumes and embroil themselves in a violent form of football.
+For example, calcio players could punch, shoulder charge, and kick opponents.
+Blows below the belt were allowed. The game is said to have originated as a military training exercise.
+In 1580, Count Giovanni de' Bardi di Vernio wrote Discorso sopra 'l giuoco del Calcio Fiorentino.
+This is sometimes said to be the earliest code of rules for any football game.
+The game was not played after January 1739 (until it was revived in May 1930).
+There have been many attempts to ban football, from the middle ages through to the modern day.
+The first such law was passed in England in 1314; it was followed by more than 30 in England alone between 1314 and 1667.
+Women were banned from playing at English and Scottish Football League grounds in 1921, a ban that was only lifted in the 1970s.
+Female footballers still face similar problems in some parts of the world.
+American football also faced pressures to ban the sport.
+The game played in the 19th century resembled mob football that developed in medieval Europe, including a version popular on university campuses known as Old division football, and several municipalities banned its play in the mid-19th century.
+By the 20th century, the game had evolved to a more rugby style game.
+In 1905, there were calls to ban American football in the U.S. due to its violence; a meeting that year was hosted by American president Theodore Roosevelt led to sweeping rules changes that caused the sport to diverge significantly from its rugby roots to become more like the sport as it is played today.
+One of the longest running football fixture is the Cordner-Eggleston Cup, contested between Melbourne Grammar School and Scotch College, Melbourne every year since 1858.
+It is believed by many to also be the first match of Australian rules football, although it was played under experimental rules in its first year.
+The first football trophy tournament was the Caledonian Challenge Cup, donated by the Royal Caledonian Society of Melbourne, played in 1861 under the Melbourne Rules.
+The oldest football league is a rugby football competition, the United Hospitals Challenge Cup (1874), while the oldest rugby trophy is the Yorkshire Cup, contested since 1878.
+The South Australian Football Association (30 April 1877) is the oldest surviving Australian rules football competition.
+The oldest surviving soccer trophy is the Youdan Cup (1867) and the oldest national football competition is the English FA Cup (1871).
+The Football League (1888) is recognised as the longest running Association Football league.
+The first ever international football match took place between sides representing England and Scotland on 5 March 1870 at the Oval under the authority of the FA.
+The first Rugby international took place in 1871.
+The earliest reference to a game of football involving players passing the ball and attempting to score past a goalkeeper was written in 1633 by David Wedderburn, a poet and teacher in Aberdeen, Scotland.
+Nevertheless, the original text does not state whether the allusion to passing as 'kick the ball back' ('Repercute pilam') was in a forward or backward direction or between members of the same opposing teams (as was usual at this time).
+"Scientific" football is first recorded in 1839 from Lancashire and in the modern game in Rugby football from 1862 and from Sheffield FC as early as 1865.
+The first side to play a passing combination game was the Royal Engineers AFC in 1869/70.
+By 1869 they were "work[ing] well together", "backing up" and benefiting from "cooperation".
+By 1870 the Engineers were passing the ball: "Lieut. Creswell, who having brought the ball up the side then kicked it into the middle to another of his side, who kicked it through the posts the minute before time was called".
+Passing was a regular feature of their style.
+By early 1872 the Engineers were the first football team renowned for "play[ing] beautifully together".
+A double pass is first reported from Derby school against Nottingham Forest in March 1872, the first of which is irrefutably a short pass: "Mr Absey dribbling the ball half the length of the field delivered it to Wallis, who kicking it cleverly in front of the goal, sent it to the captain who drove it at once between the Nottingham posts".
+The first side to have perfected the modern formation was Cambridge University AFC[96][97][98] and introduced the 2–3–5 "pyramid" formation.
+The word football, when used in reference to a specific game can mean any one of those described above.
+Because of this, much friendly controversy has occurred over the term football, primarily because it is used in different ways in different parts of the English-speaking world.
+Most often, the word "football" is used to refer to the code of football that is considered dominant within a particular region (which is Association football in most countries). So, effectively, what the word "football" means usually depends on where one says it.
+Heading from The Sportsman (London) front page of 25 November 1910, illustrating the continued use of the word "football" to encompass both association football and rugby
+In each of the United Kingdom, the United States, and Canada, one football code is known solely as "football", while the others generally require a qualifier.
+In New Zealand, "football" historically referred to rugby union, but more recently may be used unqualified to refer to association football.
+The sport meant by the word "football" in Australia is either Australian rules football or rugby league, depending on local popularity (which largely conforms to the Barassi Line).
+In francophone Quebec, where Canadian football is more popular, the Canadian code is known as le football while American football is known as le football américain and association football is known as le soccer.
+
+Cinematography (from ancient Greek κίνημα, kìnema "movement" and γράφειν, gràphein "to write") is the art of motion picture (and more recently, electronic video camera) photography.
+Cinematographers use a lens to focus reflected light from objects into a real image that is transferred to some image sensor or light-sensitive material inside a movie camera.
+These exposures are created sequentially and preserved for later processing and viewing as a motion picture.
+Capturing images with an electronic image sensor produces an electrical charge for each pixel in the image, which is electronically processed and stored in a video file for subsequent processing or display.
+Images captured with photographic emulsion result in a series of invisible latent images on the film stock, which are chemically "developed" into a visible image.
+The images on the film stock are projected for viewing the same motion picture.
+Cinematography finds uses in many fields of science and business, as well as for entertainment purposes and mass communication.
+In the 1830s, three different solutions for moving images were invented on the concept of revolving drums and disks, the stroboscope by Simon von Stampfer in Austria, the phenakistoscope by Joseph Plateau in Belgium, and the zoetrope by William Horner in Britain.
+In 1845, Francis Ronalds invented the first successful camera able to make continuous recordings of the varying indications of meteorological and geomagnetic instruments over time.
+The cameras were supplied to numerous observatories around the world and some remained in use until well into the 20th century.
+William Lincoln patented a device, in 1867, that showed animated pictures called the "wheel of life" or "zoopraxiscope".
+In it, moving drawings or photographs were watched through a slit.
+On 19 June 1878, Eadweard Muybridge successfully photographed a horse named "Sallie Gardner" in fast motion using a series of 24 stereoscopic cameras.
+The cameras were arranged along a track parallel to the horse's, and each camera shutter was controlled by a trip wire triggered by the horse's hooves.
+They were 21 inches apart to cover the 20 feet taken by the horse stride, taking pictures at one-thousandth of a second. 
+At the end of the decade, Muybridge had adapted sequences of his photographs to a zoopraxiscope for short, primitive projected "movies," which were sensations on his lecture tours by 1879 or 1880.
+Four years later, in 1882, French scientist Étienne-Jules Marey invented a chronophotographic gun, which was capable of taking 12 consecutive frames a second, recording all the frames of the same picture.
+The late nineteenth to the early twentieth century brought rise to the use of film not only for entertainment purposes but for scientific exploration as well.
+French biologist and filmmaker Jean Painleve lobbied heavily for the use of film in the scientific field, as the new medium was more efficient in capturing and documenting the behavior, movement, and environment of microorganisms, cells, and bacteria, than the naked eye.
+The introduction of film into scientific fields allowed for not only the viewing "new images and objects, such as cells and natural objects, but also the viewing of them in real time", whereas prior to the invention of moving pictures, scientists and doctors alike had to rely on hand-drawn sketches of human anatomy and its microorganisms.
+This posed a great inconvenience in the science and medical worlds.
+The development of film and increased usage of cameras allowed doctors and scientists to grasp a better understanding and knowledge of their projects.
+The experimental film Roundhay Garden Scene, filmed by Louis Le Prince on October 14, 1888 in Roundhay, Leeds, England, is the earliest surviving motion picture.
+This movie was shot on paper film.
+An experimental film camera was developed by British inventor William Friese Greene and patented in 1889.
+W. K. L. Dickson, working under the direction of Thomas Alva Edison, was the first to design a successful apparatus, the Kinetograph, patented in 1891.
+This camera took a series of instantaneous photographs on standard Eastman Kodak photographic emulsion coated onto a transparent celluloid strip 35 mm wide.
+The results of this work were first shown in public in 1893, using the viewing apparatus also designed by Dickson, the Kinetoscope.
+Contained within a large box, only one person at a time looking into it through a peephole could view the movie.
+In the following year, Charles Francis Jenkins and his projector, the Phantoscope, made a successful audience viewing while Louis and Auguste Lumière perfected the Cinématographe, an apparatus that took, printed, and projected film, in Paris in December 1895.
+The Lumière brothers were the first to present projected, moving, photographic, pictures to a paying audience of more than one person.
+In 1896, movie theaters were open in France (Paris, Lyon, Bordeaux, Nice, Marseille); Italy (Rome, Milan, Naples, Genoa, Venice, Bologna, Forlì); Brussels; and London.
+The chronological improvements in the medium may be listed concisely.
+In 1896, Edison showed his improved Vitascope projector, the first commercially successful projector in the U.S. Cooper Hewitt invented mercury lamps which made it practical to shoot films indoors without sunlight in 1905.
+The first animated cartoon was produced in 1906.
+Credits began to appear at the beginning of motion pictures in 1911.
+The Bell and Howell 2709 movie camera invented in 1915 allowed directors to make close-ups without physically moving the camera.
+By the late 1920s, most of the movies produced were sound films.
+Wide screen formats were first experimented within the 1950s.
+By the 1970s, most movies were color films.
+IMAX and other 70mm formats gained popularity.
+Wide distribution of films became commonplace, setting the ground for "blockbusters".
+Film cinematography dominated the motion picture industry from its inception until the 2010s when digital cinematography became dominant.
+Film cinematography is still used by some directors, especially in specific applications or out of fondness for the format.
+From its birth in the 1880s, movies were predominantly monochrome.
+Contrary to popular belief, monochrome does not always mean black and white; it means a movie shot in a single tone or color.
+Since the cost of tinted film bases was substantially higher, most movies were produced in black and white monochrome.
+Even with the advent of early color experiments, the greater expense of color meant films were mostly made in black and white until the 1950s, when cheaper color processes were introduced, and in some years the percentage of films shot on color film surpassed 51%.
+By the 1960s, color became by far the dominant film stock.
+In the coming decades, the usage of color film greatly increased while monochrome films became scarce.
+After the advent of motion pictures, a tremendous amount of energy was invested in the production of photography in natural color.
+The invention of the talking picture further increased the demand for the use of color photography.
+However, in comparison to other technological advances of the time, the arrival of color photography was a relatively slow process.
+Early movies were not actually color movies since they were shot monochrome and hand-colored or machine-colored afterward (such movies are referred to as colored and not color).
+The earliest such example is the hand-tinted Annabelle Serpentine Dance in 1895 by Edison Manufacturing Company. Machine-based tinting later became popular.
+Tinting continued until the advent of natural color cinematography in the 1910s.
+Many black and white movies have been colorized recently using digital tinting.
+This includes footage shot from both world wars, sporting events and political propaganda.
+In 1902, Edward Raymond Turner produced the first films with a natural color process rather than using colorization techniques.
+In 1908, kinemacolor was introduced.
+In the same year, the short film A Visit to the Seaside became the first natural color movie to be publicly presented.
+In 1917, the earliest version of Technicolor was introduced.
+Kodachrome was introduced in 1935.
+Eastmancolor was introduced in 1950 and became the color standard for the rest of the century.
+In the 2010s, color films were largely superseded by color digital cinematography.
+The first film cameras were fastened directly to the head of a tripod or other support, with only the crudest kind of leveling devices provided, in the manner of the still-camera tripod heads of the period.
+The earliest film cameras were thus effectively fixed during the shot, and hence the first camera movements were the result of mounting a camera on a moving vehicle.
+The first known of these was a film shot by a Lumière cameraman from the back platform of a train leaving Jerusalem in 1896, and by 1898, there were a number of films shot from moving trains.
+Although listed under the general heading of "panoramas" in the sales catalogues of the time, those films shot straight forward from in front of a railway engine were usually specifically referred to as "phantom rides."
+In 1897, Robert W. Paul had the first real rotating camera head made to put on a tripod, so that he could follow the passing processions of Queen Victoria's Diamond Jubilee in one uninterrupted shot.
+This device had the camera mounted on a vertical axis that could be rotated by a worm gear driven by turning a crank handle, and Paul put it on general sale the next year.
+Shots taken using such a "panning" head were also referred to as "panoramas" in the film catalogues of the first decade of the cinema. This eventually led to the creation of a panoramic photo as well.
+The standard pattern for early film studios was provided by the studio which Georges Méliès had built in 1897.
+This had a glass roof and three glass walls constructed after the model of large studios for still photography, and it was fitted with thin cotton cloths that could be stretched below the roof to diffuse the direct ray of the sun on sunny days. The soft overall light without real shadows that this arrangement produced, and which also exists naturally on lightly overcast days, was to become the basis for film lighting in film studios for the next decade.
+Cinematography can begin with digital image sensor or rolls of film.
+Advancements in film emulsion and grain structure provided a wide range of available film stocks. The selection of a film stock is one of the first decisions made in preparing a typical film production.
+Aside from the film gauge selection – 8 mm (amateur), 16 mm (semi-professional), 35 mm (professional) and 65 mm (epic photography, rarely used except in special event venues) – the cinematographer has a selection of stocks in reversal (which, when developed, create a positive image) and negative formats along with a wide range of film speeds (varying sensitivity to light) from ISO 50 (slow, least sensitive to light) to 800 (very fast, extremely sensitive to light) and differing response to color (low saturation, high saturation) and contrast (varying levels between pure black (no exposure) and pure white (complete overexposure).
+Advancements and adjustments to nearly all gauges of film create the "super" formats wherein the area of the film used to capture a single frame of an image is expanded, although the physical gauge of the film remains the same.
+Super 8 mm, Super 16 mm, and Super 35 mm all utilize more of the overall film area for the image than their "regular" non-super counterparts.
+The larger the film gauge, the higher the overall image resolution clarity and technical quality.
+The techniques used by the film laboratory to process the film stock can also offer a considerable variance in the image produced.
+By controlling the temperature and varying the duration in which the film is soaked in the development chemicals, and by skipping certain chemical processes (or partially skipping all of them), cinematographers can achieve very different looks from a single film stock in the laboratory.
+Some techniques that can be used are push processing, bleach bypass, and cross processing.
+Most of modern cinema uses digital cinematography and has no film stocks, but the cameras themselves can be adjusted in ways that go far beyond the abilities of one particular film stock.
+They can provide varying degrees of color sensitivity, image contrast, light sensitivity and so on.
+One camera can achieve all the various looks of different emulsions.
+Digital image adjustments such as ISO and contrast are executed by estimating the same adjustments that would take place if actual film were in use, and are thus vulnerable to the camera's sensor designers perceptions of various film stocks and image adjustment parameters.
+Filters, such as diffusion filters or color effect filters, are also widely used to enhance mood or dramatic effects.
+Most photographic filters are made up of two pieces of optical glass glued together with some form of image or light manipulation material between the glass.
+In the case of color filters, there is often a translucent color medium pressed between two planes of optical glass.
+Color filters work by blocking out certain color wavelengths of light from reaching the film.
+With color film, this works very intuitively wherein a blue filter will cut down on the passage of red, orange, and yellow light and create a blue tint on the film.
+In black-and-white photography, color filters are used somewhat counter-intuitively; for instance, a yellow filter, which cuts down on blue wavelengths of light, can be used to darken a daylight sky (by eliminating blue light from hitting the film, thus greatly underexposing the mostly blue sky) while not biasing most human flesh tone.
+Filters can be used in front of the lens or, in some cases, behind the lens for different effects.
+Certain cinematographers, such as Christopher Doyle, are well known for their innovative use of filters; Doyle was a pioneer for increased usage of filters in movies and is highly respected throughout the cinema world.
+Focal length and diaphragm aperture affect the depth of field of a scene – that is, how much the background, mid-ground and foreground will be rendered in "acceptable focus" (only one exact plane of the image is in precise focus) on the film or video target.
+Depth of field (not to be confused with depth of focus) is determined by the aperture size and the focal distance.
+A large or deep depth of field is generated with a very small iris aperture and focusing on a point in the distance, whereas a shallow depth of field will be achieved with a large (open) iris aperture and focusing closer to the lens.
+Depth of field is also governed by the format size.
+If one considers the field of view and angle of view, the smaller the image is, the shorter the focal length should be, as to keep the same field of view.
+Then, the smaller the image is, the more depth of field is obtained, for the same field of view. Therefore, 70mm has less depth of field than 35mm for a given field of view, 16mm more than 35mm, and early video cameras, as well as most modern consumer level video cameras, even more depth of field than 16mm.
+In Citizen Kane (1941), cinematographer Gregg Toland and director Orson Welles used tighter apertures to create every detail of the foreground and background of the sets in sharp focus.
+This practice is known as deep focus.
+Deep focus became a popular cinematographic device from the 1940s onward in Hollywood.
+Today, the trend is for more shallow focus. To change the plane of focus from one object or character to another within a shot is commonly known as a rack focus.
+Early in the transition to digital cinematography, the inability of digital video cameras to easily achieve shallow depth of field, due to their small image sensors, was initially an issue of frustration for film makers trying to emulate the look of 35mm film.
+Optical adapters were devised which accomplished this by mounting a larger format lens which projected its image, at the size of the larger format, on a ground glass screen preserving the depth of field. The adapter and lens then mounted on the small format video camera which in turn focused on the ground glass screen.
+Digital SLR still cameras have sensor sizes similar to that of the 35mm film frame, and thus are able to produce images with similar depth of field.
+The advent of video functions in these cameras sparked a revolution in digital cinematography, with more and more film makers adopting still cameras for the purpose because of the film-like qualities of their images.
+More recently, more and more dedicated video cameras are being equipped with larger sensors capable of 35mm film-like depth of field.
+
+Music is the art of arranging sound. 
+It is one of the universal cultural aspects of all human societies. 
+Music may be defined with styles that emphasize, de-emphasize, or omit common elements of organized sound, such as rhythm, volume and pitch.
+Rhythm may be specified with tempos, sometimes organized using meters, and often coordinating the variation and juxtaposition of pitch.
+Individual sounds possess timbres or texture, which heavily contribute to the music's overall character.
+The relationships and divisions between genres are inexact and sometimes hotly contested, as in taxonomy.
+The mere existence or legitimacy of a genre may be a topic of controversy.
+It is sometimes more valuable to categorize music by era, scene, intent, or artistic inspiration.
+Individual periods of music are separated into pieces, which can be categorized into numerous traditions, such as songs, tracks, symphonies, or so forth.
+Pieces may be composed and performed using a vast range of instruments, including the human voice.
+There are solely instrumental pieces, solely vocal pieces, pieces that combine singing and instruments, pieces with no sound, randomly generated pieces, and even pieces merely specifying an environment with no further sonic organization.
+In some musical contexts, a performance or composition may be to some extent improvised.
+For instance, in Hindustani classical music, the performer plays spontaneously while following a partially defined structure and using characteristic motifs.
+In modal jazz the performers may take turns leading and responding, while sharing a changing set of notes.
+In a free jazz context, there may be no structure whatsoever, with each performer acting at their discretion.
+Music may be deliberately composed to be unperformable, or agglomerated electronically from many performances.
+Music is played in public and private areas, highlighted at events such as festivals, rock concerts, and orchestra performance, and heard incidentally as part of a score or soundtrack to a film, TV show, opera, or video game.
+Musical playback is the primary function of an MP3 player or CD player and a universal feature of radios and smartphones.
+Music often plays a key role in social activities (such as dancing, karaoke singing, and attending concerts), religious rituals, rite of passage ceremonies, graduation and marriage celebrations, and cultural activities such as community choirs.
+It can be a hobby or a profession, like a teen playing cello in a youth orchestra or a local funk band hired for parties.
+The music industry includes songwriters, performers (including orchestra, jazz band and rock band musicians, singers and conductors), sound engineers, producers, tour organizers, distributors of instruments, accessories, and sheet music.
+Compositions, performances, and recordings are assessed and evaluated by music critics, music journalists, and music scholars, as well as amateurs.
+Like visual art and literature, music is widely created, appreciated, academically studied and criticized, and has been for thousands of years.
+Prehistoric music can only be theorized based on findings from paleolithic archaeology sites.
+Flutes are often discovered, carved from bones in which lateral holes have been pierced; these are thought to have been blown at one end like the Japanese shakuhachi.
+The Divje Babe flute, carved from a cave bear femur, is thought to be at least 40,000 years old, though there is considerable debate surrounding whether it is truly a musical instrument or an object formed by animals.
+Instruments such as the seven-holed flute and various types of stringed instruments, such as the Ravanahatha, have been recovered from the Indus Valley civilization archaeological sites.
+India has one of the oldest musical traditions in the world—references to Indian classical music (marga) are found in the Vedas, ancient scriptures of the Hindu tradition.
+The earliest and largest collection of prehistoric musical instruments was found in China and dates back to between 7000 and 6600 BC.
+The "Hurrian Hymn to Nikkal", found on clay tablets that date back to approximately 1400 BC, is the oldest surviving notated work of music.
+Music is composed and performed for many purposes, ranging from aesthetic pleasure, religious or ceremonial purposes, or as an entertainment product for the marketplace.
+When music was only available through sheet music scores, such as during the Classical and Romantic eras, music lovers would buy the sheet music of their favourite pieces and songs so that they could perform them at home on the piano.
+With the advent of the phonograph, records of popular songs, rather than sheet music became the dominant way that music lovers would enjoy their favourite songs.
+With the advent of home tape recorders in the 1980s and digital music in the 1990s, music lovers could make tapes or playlists of their favourite songs and take them with them on a portable cassette player or MP3 player.
+Some music lovers create mix tapes of their favourite songs, which serve as a "self-portrait, a gesture of friendship, prescription for an ideal party... [and] an environment consisting solely of what is most ardently loved".
+Amateur musicians can compose or perform music for their own pleasure, and derive their income elsewhere.
+Professional musicians are employed by a range of institutions and organisations, including armed forces (in marching bands, concert bands and popular music groups), churches and synagogues, symphony orchestras, broadcasting or film production companies, and music schools.
+Professional musicians sometimes work as freelancers or session musicians, seeking contracts and engagements in a variety of settings.
+There are often many links between amateur and professional musicians.
+Beginning amateur musicians take lessons with professional musicians.
+In community settings, advanced amateur musicians perform with professional musicians in a variety of ensembles such as community concert bands and community orchestras.
+A distinction is often made between music performed for a live audience and music that is performed in a studio so that it can be recorded and distributed through the music retail system or the broadcasting system.
+However, there are also many cases where a live performance in front of an audience is also recorded and distributed.
+Live concert recordings are popular in both classical music and in popular music forms such as rock, where illegally taped live concerts are prized by music lovers.
+In the jam band scene, live, improvised jam sessions are preferred to studio recordings.
