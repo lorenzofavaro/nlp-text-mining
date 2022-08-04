@@ -1,0 +1,10 @@
+name,hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,domestic,catsize,mammal
+lion,X,,,X,,,X,X,X,X,,,,X,X
+finch,,X,X,,X,,,,,,X,,X,X,X
+giraffe,X,,,,,,,X,,X,,,,,X
+eagle,,X,X,,X,,X,,X,X,,,,,X
+dog,,,,,,,,X,X,X,,,X,X,X
+octopus,,,X,,,X,,,,X,,,,,
+penguin,,X,X,,,X,,,,X,,X,,,X
+hare,,,,X,,,,X,,,,,,X,X
+snake,,,X,,,X,X,X,,X,X,,,,
