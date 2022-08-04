@@ -65,3 +65,18 @@ Then, we divided our algorithm in two phases:
 
 For the bruteforce phase we established a max of 1000 iterations. It seemed like a good compromise between speed and effectiveness.
 In conclusion, overall we got pretty good results.
+
+## Contributing
+Libraries used:
+- [nltk](https://www.nltk.org/)
+- [numpy](https://numpy.org/)
+- [concepts](https://pypi.org/project/concepts/)
+- [spacy](https://spacy.io/)
+- [matplotlib](https://matplotlib.org/)
+- [gensim](https://radimrehurek.com/gensim/)
+- [pandas](https://pandas.pydata.org/)
+- [pyLDAvis](https://pyldavis.readthedocs.io/en/latest/readme.html)
+
+## Authors
+[Lorenzo Favaro](https://github.com/lorenzofavaro)
+[Andrea Senese](https://github.com/AndreaSenese)
