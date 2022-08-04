@@ -75,7 +75,7 @@ As a dataset, we manually composed it by sequencing four wikipedia articles:
 - Cinematography
 - Music
 
-## Topic Modeling
+### Topic Modeling
 In this exercise we had to implement an algorithm of Topic Modeling, another NLP task that we have addressed in the context of document semantics. With Topic Modeling we refer, in fact, to a specific NLP (Natural Language Processing) task that allows automatically to identify the main topics covered in a certain document corpus.
 
 It is a task that follows an unsupervised approach, and as such does not require a tagged dataset. The dataset used in the correspondent notebook is a csv file that contains around 200k news headlines from the year 2012 to 2018 obtained from HuffPost obtained from Kaggle.
@@ -98,6 +98,33 @@ For this task, we managed to get good results and we used pyLDAvis library to ge
   <img src="https://github.com/lorenzofavaro/nlp-text-mining/blob/main/docs/topic_modeling.png"/>
 </p>
 
+### Guillotine
+In this notebook is treated the game of the Guillotine which is broadcast every evening on Rai Uno on Italian television.
+The competitor is presented with five pairs of words, of which he must choose one and of which one is the right clue and the other is an intruder; if he chooses the right one, the prize money remains intact, otherwise it is halved.
+
+Once all five clues have been found, the competitor has a minute to think about what the word that binds to each of them may be. If he guesses the word he wins the prize pool, otherwise he wins nothing. The champion returns by right in the next episode.
+
+So, we needed to implement an algorithm that, given 5 words, return the 6th. The sixth word has to be strongly related to the other five.
+
+Our algorithm searches within a dataset (composed by us) all the sentences in which at least one word of the 5 dates appears. These sentences are saved and pre-processed by tokenizing them (and removing stop words). Then the word that occurs most in all the selected sentences is selected. We weight more the words that appears in sentences for different test words.
+
+The dataset was composed by combining:
+  - Titles of movies
+  - Titles of italian songs
+  - Common saying sentences
+
+We tested our algorithm on 5 lists of test words and we obtained an accuracy of 3/5 = 60%. So, not bad for this task!
+
+### False Friends
+In this exercise we saw the definition of a false friends word detection algorithm. The general definition of a false friend is that of two almost homonymous words that share many characters in common but which differ greatly in meaning. An example of false friends are: `lost` & `most`. 
+For this exercise we decided to work on a single language, English, using the lexical resource of WordNet to access the different meanings of the terms.
+To understand whether or not two words are false friends, we looked at their [Edit Distance](https://en.wikipedia.org/wiki/Edit_distance), that is the minimum number of operations of insertion, removal, modification, to transform one string into another.
+After that, to check if two words are False Friends we checked their Wu & Palmer similarity making sure it is less than a certain threshold.
+This way, terms with *high lexical similarity* and *low semantic similarity* are good candidates to be False Friends.
+
+Having already dealt with the SemCor corpus in the second part of the course, we decided to exploit this resource again, used in this context only to access a list of English language content words and to check for the presence of false friends. SemCor is an English language corpus consisting of 352 semantically annotated texts, with a total of 37176 sentences, which come from the Brown corpus. Currently, Semcor represents the largest hand annotated dataset with wordnet synsets.
+
+We extracted 20 random sentences from the corpus and searched for false friends using 2 as edit distance threshold and 0.3 wu&palmer similarity. These parameters values were empirically set.
 
 ## Contributing
 Libraries used:
