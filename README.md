@@ -78,7 +78,7 @@ As a dataset, we manually composed it by sequencing four wikipedia articles:
 ## Topic Modeling
 In this exercise we had to implement an algorithm of Topic Modeling, another NLP task that we have addressed in the context of document semantics. With Topic Modeling we refer, in fact, to a specific NLP (Natural Language Processing) task that allows automatically to identify the main topics covered in a certain document corpus.
 
-It is a task that follows an unsupervised approach, and as such does not require a tagged dataset.
+It is a task that follows an unsupervised approach, and as such does not require a tagged dataset. The dataset used in the correspondent notebook is a csv file that contains around 200k news headlines from the year 2012 to 2018 obtained from HuffPost obtained from Kaggle.
 
 The two main methods for implementing Topic Modeling approaches are:
   - Latent Semantic Analysis (LSA)
@@ -93,7 +93,10 @@ The basic steps for topic modeling are:
  2. Creation of the dictionary and corpus necessary for topic modeling
  3. Topic construction
 
-The dataset considered is a csv file that contains around 200k news headlines from the year 2012 to 2018 obtained from HuffPost obtained from Kaggle.
+For this task, we managed to get good results and we used pyLDAvis library to generate an interactive panel that displays a representation in the topic space. We also used WordCloud library to visualize a representation of the top N words in each topic with the size of the words proportional to the weight.
+<p align="center">
+  <img src="https://github.com/lorenzofavaro/nlp-text-mining/blob/main/docs/topic_modeling.png"/>
+</p>
 
 
 ## Contributing
