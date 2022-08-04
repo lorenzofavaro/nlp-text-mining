@@ -42,7 +42,7 @@ The approach we adopted is:
 ### Hanks
 In Lexical Analysis, Patrick Hanks offers a wide-ranging empirical investigation of word use and meaning in language.
 
-We had to:
+We had to implement the [Valence Theory](http://clg.wlv.ac.uk/papers/hanks-2012a.pdf) of Patrick Hanks. To accomplish this task we:
  - Choose a transitive verb (minimum valence = 2) &rarr; **EAT**
  - Retrieve from a corpus n (> 1000) instances in which it is used &rarr; I composed a corpus merging two pre-processed corpora: [corpora_1](https://sentence.yourdictionary.com/eat) and [corpora_2](https://wortschatz.uni-leipzig.de/en/download/English)
  - Perform parsing and disambiguation
@@ -54,3 +54,14 @@ Finally we plotted the semantic clusters:
 <p align="center">
   <img src="https://github.com/lorenzofavaro/nlp-text-mining/blob/main/docs/hanks.png"/>
 </p>
+
+### Segmentation
+Implement a simple algorithm of Text Segmentation. Basically, given a corpus that contains different themes, our algorithm must be able to find the cuts that best distinguish them.
+To do that, we defined a score metric based on the Co Occurrence. Co-occurrence of a segment is measured as the sum of all the occurrences of the k most common words.
+
+Then, we divided our algorithm in two phases:
+ - Bruteforce: choose the cuts randomly maximizing the score
+ - Refine: refine the previously calculated cuts by testing whether small shifts in the cuts improve the total score
+
+For the bruteforce phase we established a max of 1000 iterations. It seemed like a good compromise between speed and effectiveness.
+In conclusion, overall we got pretty good results.
