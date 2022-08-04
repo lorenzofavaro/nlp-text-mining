@@ -111,5 +111,5 @@ Libraries used:
 - [pyLDAvis](https://pyldavis.readthedocs.io/en/latest/readme.html)
 
 ## Authors
-[Lorenzo Favaro](https://github.com/lorenzofavaro)
-[Andrea Senese](https://github.com/AndreaSenese)
+- [Lorenzo Favaro](https://github.com/lorenzofavaro)
+- [Andrea Senese](https://github.com/AndreaSenese)
